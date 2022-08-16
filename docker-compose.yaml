@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+   saipwebapp:
+    image: saimobiweb:appv1
+    build: .
+    container_name: saiwebc1
+    ports:
+      - 1818:80
+    restart: always
